@@ -20,6 +20,6 @@ Initial iteration will have the following features:
 Roadmap items for consideration include:
 3. Get historical service status data for a date/time range
 
-I've chosen Falcon for now as the WSGI server, mainly because it's lean and I liked it's tagline "Unburdening APIs for over 5.00 x 10-2 centuries."  I was also considering Morepath, but that's probably a bit too niche to skill up in.  Flask would be an obvious candidate to fall back to if Falcon proves to be a problem.
+![FalconBirds](/assets/falcon-birds.png)I've chosen Falcon (https://falconframework.org) for now as the WSGI server, mainly because it's lean and I liked it's tagline "Unburdening APIs for over 5.00 x 10-2 centuries."  I was also considering Morepath, but that's probably a bit too niche to skill up in.  Flask would be an obvious candidate to fall back to if Falcon proves to be a problem.
 
 **So let's go**
