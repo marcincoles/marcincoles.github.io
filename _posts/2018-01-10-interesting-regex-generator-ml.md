@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interesting ML Regex generator
-date: 2018-01-010
+date: 2018-01-10
 categories: programming regex
 ---
 ### Something I just came across for future reference, 
