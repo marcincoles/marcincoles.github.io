@@ -37,4 +37,4 @@ source cyoa/bin/activate
 
 
 ## First mc74.org content
-If you look at the browser address bar, it should show this site is now [http://blog.mc74.org](blog.mc74.org) content. I haven't actually moved the site to wordpress like I was threatening, just got the domain repointed.  I'm trying out [DNSimple](https://dnsimple.com) as it's programmable via terraform, so it could be useful for various things.  Anyway at $5/month I can afford to see how it works for a little while.
+If you look at the browser address bar, it should show this site is now [blog.mc74.org](http://blog.mc74.org) content. I haven't actually moved the site to wordpress like I was threatening, just got the domain repointed.  I'm trying out [DNSimple](https://dnsimple.com) as it's programmable via terraform, so it could be useful for various things.  Anyway at $5/month I can afford to see how it works for a little while.
