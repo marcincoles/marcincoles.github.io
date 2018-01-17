@@ -22,10 +22,11 @@ gunicorn==19.7.1
 redis==2.10.6
 twilio==6.10.0
 ```
+Ok, well already we need to add gevent (I wonder if Flask-Script had it as a dependency, although I would have thought it would be more in line wiht SocketIO than Flask-Script )
 We'll see if that causes any issues.
 
 ### First sign of trouble you choose for yourself
-Well, that didn't take long. My second decision above (after the decision to move to latest releases) was to replace Flask-Script with click.  The reason I did that was that Flask-Script is no longer being maintatined and click was recommended.  So now I have to figure out how that works, because this tutorial is a bit of a Richard Feynmann tutorial - 'imagine I have 0 knowledge and infinite intelligence'.  So it doesn't actually explain much detail and expects you to fill in the gaps really fast. However I think this will help me learn - a bit like checkio helps you learn by throwing challenges at you. In this scenario, I basically have to figure out how to translate the Flask-Script code into click code, well I guess I like making a rod for my own back.
+Well, that didn't take long. My second decision above (after the decision to move to latest releases) was to replace Flask-Script with click.  The reason I did that was that Flask-Script is no longer being maintatined and click was recommended.  So now I have to figure out how that works, because this tutorial is a bit of a Richard Feynmann tutorial - 'imagine I have 0 knowledge and infinite intelligence'.  So it doesn't actually explain much detail and expects you to fill in the gaps really fast. However I assume this will help me learn - a bit like checkio helps you learn by throwing challenges at you. In this scenario, I basically have to figure out how to translate the Flask-Script code into click code, well I guess I like making a rod for my own back. Hmm, gevent..hmm
 
 ### Working with virtualenv
 So what I've learned is that we've got to run virtualenv every time we start a terminal. According to the tutorial this should be:
