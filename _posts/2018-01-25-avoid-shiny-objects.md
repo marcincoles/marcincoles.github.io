@@ -1,6 +1,6 @@
 ---
 layout: post
-titlr: Avoid shiny objects
+title: Avoid shiny objects
 date: 2018-01-25
 categories: programming docker 
 ---
