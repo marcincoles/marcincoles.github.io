@@ -19,7 +19,7 @@ I've got some existing code for a generic undirected graph already (from one of 
 #### Python properties
 
 Today I learned about properties
-```
+```python
 class C():
     __init__(self):
         self._x = 0
