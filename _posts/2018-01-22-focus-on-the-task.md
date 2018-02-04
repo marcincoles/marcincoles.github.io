@@ -39,6 +39,6 @@ So these are like properties in C# and Java and allow for a bit of encapsulation
 
 While I'm not interested right now about web dev, it's good to know that I can extend python into the presentation layer inside the browser. There's two tools that I will investigate:
 * [Transcrypt](https://www.transcrypt.org)
-* [Brython](http:www.brythong.info)
+* [Brython](http://www.brython.info)
 
-I'm not yet at the stage where I need to make a decision on the above, but they both look promising.  Brython looks a bit less full-featured compared to Transcrypt.
+I'm not yet at the stage where I need to make a decision on the above, but they both look promising.  
